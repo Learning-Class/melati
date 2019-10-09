@@ -1,0 +1,28 @@
+# Program gabungan 2
+jumlahLulus = 0
+jumlahTidakLulus= 0
+
+for i in range(3):
+    print("Masukan nilai 1 :")
+    nilai1 = float(input())
+
+    print("Masukan nilai 2 :")
+    nilai2 = float(input())
+
+    print("Masukan nilai 3 :")
+    nilai3 = float(input())
+
+    rata = (nilai1 + nilai2 + nilai3) / 3
+
+    print("Rata rata : ", rata)
+
+    if rata > 70 :
+        print("anda lulus")
+        jumlahLulus = jumlahLulus + 1
+    else:
+        print("anda tidak lulus")
+        jumlahTidakLulus = jumlahTidakLulus + 1
+
+print("Jumlah lulus : ", jumlahLulus)
+print("Jumlah tidak lulus : ", jumlahTidakLulus)
+
